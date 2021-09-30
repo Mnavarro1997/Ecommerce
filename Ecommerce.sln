@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce", "Ecommerce.csproj", "{C30667CB-B185-4E72-ABDE-ED9442F8FEB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1Presentacion", "1.1Presentacion", "{4A63E4AD-73CA-42FD-A4EB-D9590FBF31E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2DistribucionService", "1.2DistribucionService", "{75E7959A-FA17-4F0F-BCC1-DD6FC07AB556}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1Domain", "3.1Domain", "{879599DA-B3B6-483D-A827-5C66DE6EC73E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1Infrasestructura", "4.1Infrasestructura", "{5C9C6910-1550-4B29-A312-5B34A16096C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1ServiceLibrary", "2.1ServiceLibrary", "{C729F511-75F4-4EC6-B43C-613260D2C81A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceAPIStock", "..\EcommerceAPIStock\EcommerceAPIStock.csproj", "{DC63A0C7-E903-4771-9584-27FED6EE63FD}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCF.SOAP.Price", "..\WCF.SOAP.Price\", "{7167D1AF-FBDA-43CF-99A7-24A27FEB771C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59301"
+		Debug.AspNetCompiler.PhysicalPath = "..\WCF.SOAP.Price\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59301\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59301"
+		Release.AspNetCompiler.PhysicalPath = "..\WCF.SOAP.Price\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59301\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59301"
+		SlnRelativePath = "..\WCF.SOAP.Price\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.ServiceLibrary", "..\Ecommerce.ServiceLibrary\Ecommerce.ServiceLibrary.csproj", "{B7782C06-46C0-4365-90D7-5C3D8C439825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Domain", "..\Ecommerce.Domain\Ecommerce.Domain.csproj", "{BC29F3C0-7AC4-43AF-94F3-A358EC142F09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Infra", "..\Ecommerce.Infra\Ecommerce.Infra.csproj", "{9B93CE69-A698-45FC-8789-B4985D125E85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{80B53F2B-F0C6-4B31-B89A-6C0601CA8945}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C30667CB-B185-4E72-ABDE-ED9442F8FEB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30667CB-B185-4E72-ABDE-ED9442F8FEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30667CB-B185-4E72-ABDE-ED9442F8FEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30667CB-B185-4E72-ABDE-ED9442F8FEB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC63A0C7-E903-4771-9584-27FED6EE63FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC63A0C7-E903-4771-9584-27FED6EE63FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC63A0C7-E903-4771-9584-27FED6EE63FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC63A0C7-E903-4771-9584-27FED6EE63FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7167D1AF-FBDA-43CF-99A7-24A27FEB771C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7167D1AF-FBDA-43CF-99A7-24A27FEB771C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7167D1AF-FBDA-43CF-99A7-24A27FEB771C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7167D1AF-FBDA-43CF-99A7-24A27FEB771C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B7782C06-46C0-4365-90D7-5C3D8C439825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7782C06-46C0-4365-90D7-5C3D8C439825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7782C06-46C0-4365-90D7-5C3D8C439825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7782C06-46C0-4365-90D7-5C3D8C439825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC29F3C0-7AC4-43AF-94F3-A358EC142F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC29F3C0-7AC4-43AF-94F3-A358EC142F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC29F3C0-7AC4-43AF-94F3-A358EC142F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC29F3C0-7AC4-43AF-94F3-A358EC142F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B93CE69-A698-45FC-8789-B4985D125E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B93CE69-A698-45FC-8789-B4985D125E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B93CE69-A698-45FC-8789-B4985D125E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B93CE69-A698-45FC-8789-B4985D125E85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C30667CB-B185-4E72-ABDE-ED9442F8FEB1} = {4A63E4AD-73CA-42FD-A4EB-D9590FBF31E4}
+		{DC63A0C7-E903-4771-9584-27FED6EE63FD} = {75E7959A-FA17-4F0F-BCC1-DD6FC07AB556}
+		{7167D1AF-FBDA-43CF-99A7-24A27FEB771C} = {75E7959A-FA17-4F0F-BCC1-DD6FC07AB556}
+		{B7782C06-46C0-4365-90D7-5C3D8C439825} = {C729F511-75F4-4EC6-B43C-613260D2C81A}
+		{BC29F3C0-7AC4-43AF-94F3-A358EC142F09} = {879599DA-B3B6-483D-A827-5C66DE6EC73E}
+		{9B93CE69-A698-45FC-8789-B4985D125E85} = {5C9C6910-1550-4B29-A312-5B34A16096C5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13744D57-0AA7-48B0-8667-DFB302635D89}
+	EndGlobalSection
+EndGlobal
